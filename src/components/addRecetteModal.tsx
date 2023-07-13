@@ -28,7 +28,7 @@ export default function AddModal({ onClose, isOpen }: any) {
             "strInstructions": e.target.inst.value,
             "strMealThumb": e.target.thumbLink.value.length != 0 ? e.target.thumbLink.value : "https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg",
             "strTags": "Meat,Casserole",
-            "strYoutube": "https://www.youtube.com/watch?v=4aZr5hZXP_s",
+            "strYoutube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
             "strIngredient1": "soy sauce",
             "strIngredient2": "water",
             "strIngredient3": "brown sugar",
