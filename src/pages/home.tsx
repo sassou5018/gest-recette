@@ -37,7 +37,7 @@ export default function Home(){
             if(meal.strMeal.toLowerCase().includes(filter.toLowerCase())) return meal;
         }).map((meal: MealType)=>{
             return(
-            <Meal key={meal.idMeal} title={meal.strMeal} thumbLink={meal.strMealThumb} description={meal.strInstructions} id={meal.idMeal} ing1="aaa" ing2="bbb" ing3="cccc" />
+            <Meal key={meal.idMeal} title={meal.strMeal} thumbLink={meal.strMealThumb} description={meal.strInstructions} id={meal.idMeal} ing1={meal.strIngredient1} ing2={meal.strIngredient2} ing3={meal.strIngredient3} />
             )
         })
     }

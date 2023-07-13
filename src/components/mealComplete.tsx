@@ -42,7 +42,7 @@ export default function MealComplete({youtube ,title, thumbLink, description, in
             </CardBody>
             <Divider/>
             <CardFooter>
-                <Link to="/"><IconButton aria-label='home' colorScheme='blue' variant="ghost" icon={<CloseIcon/>}>Home</IconButton></Link>
+                <Link to="/"><Button aria-label='home' colorScheme='red' variant="solid" leftIcon={<CloseIcon/>}>Home</Button></Link>
             </CardFooter>
         </Card>
     )
